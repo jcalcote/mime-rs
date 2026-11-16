@@ -10,11 +10,11 @@ input have distinct results.
 
 ## Use
 
-The initial version is available from Git; it has not been published to crates.io:
+Add the crate from crates.io:
 
 ```toml
 [dependencies]
-mime-inspect = { git = "https://github.com/jcalcote/mime-rs", tag = "v0.1.0" }
+mime-inspect = "0.1.0"
 ```
 
 ```rust
