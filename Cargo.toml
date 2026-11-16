@@ -1,0 +1,25 @@
+[package]
+name = "mime-inspect"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["John Calcote"]
+description = "Allocation-free MIME signature detection with bounded custom magic rules"
+license = "Apache-2.0 AND ISC"
+repository = "https://github.com/jcalcote/mime-rs"
+homepage = "https://github.com/jcalcote/mime-rs"
+documentation = "https://docs.rs/mime-inspect"
+readme = "README.md"
+keywords = ["mime", "magic", "file-type", "detection", "content"]
+categories = ["parser-implementations"]
+include = ["/src/**", "/tests/**", "/examples/**", "/resources/**", "/Cargo.toml", "/README.md", "/LICENSE", "/NOTICE", "/CHANGELOG.md"]
+
+[lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[lints.clippy]
+all = "warn"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]

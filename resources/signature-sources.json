@@ -1,0 +1,242 @@
+{
+  "upstream": "simplemagic",
+  "version": "1.17",
+  "builtin_pattern_count": 47,
+  "simplemagic_derived_branches": 43,
+  "additional_public_signature_branches": [
+    "xz",
+    "zstd",
+    "7zip",
+    "webp"
+  ],
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/j256/simplemagic/simplemagic-1.17/LICENSE.txt",
+      "sha256": "9bf05a2b180c0bced886b90c6864bc6b5b75725b6068aab573bb26ed385a867d",
+      "bytes": 777,
+      "included_in_full": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/j256/simplemagic/simplemagic-1.17/src/test/resources/magic",
+      "sha256": "11d9bc3f263b187414836b9e3ecbd3c9cb3d82bcdd83ca16d124fe81b690c735",
+      "bytes": 351816,
+      "included_in_full": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/j256/simplemagic/simplemagic-1.17/src/main/java/com/j256/simplemagic/entries/MagicEntryParser.java",
+      "sha256": "a9f0a3910e23b4182e79ade5bbfabc54d9df4a5651ef0e7b75f31cf368153a38",
+      "bytes": 14086,
+      "included_in_full": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/j256/simplemagic/simplemagic-1.17/src/main/java/com/j256/simplemagic/types/PatternUtils.java",
+      "sha256": "f3b1e44a90c4e6ef9ee14b7540770a21992658165729d13b8bfa6d399ea0fd28",
+      "bytes": 2084,
+      "included_in_full": false
+    }
+  ],
+  "locators": [
+    {
+      "search": "\\037\\213",
+      "source_lines": [
+        2334,
+        4556
+      ]
+    },
+    {
+      "search": "BZh",
+      "source_lines": [
+        1052,
+        2378
+      ]
+    },
+    {
+      "search": "Rar!",
+      "source_lines": [
+        1199,
+        6897,
+        7007,
+        7020
+      ]
+    },
+    {
+      "search": "\\037\\235",
+      "source_lines": [
+        2329
+      ]
+    },
+    {
+      "search": "%PDF-",
+      "source_lines": [
+        7936
+      ]
+    },
+    {
+      "search": "PNG",
+      "source_lines": [
+        5421
+      ]
+    },
+    {
+      "search": "GIF8",
+      "source_lines": [
+        5441
+      ]
+    },
+    {
+      "search": "\\377\\330",
+      "source_lines": []
+    },
+    {
+      "search": "MM\\000",
+      "source_lines": []
+    },
+    {
+      "search": "II\\052",
+      "source_lines": []
+    },
+    {
+      "search": "8BPS",
+      "source_lines": [
+        5626
+      ]
+    },
+    {
+      "search": "fLaC",
+      "source_lines": [
+        1662,
+        1691,
+        1798
+      ]
+    },
+    {
+      "search": "OggS",
+      "source_lines": [
+        9917
+      ]
+    },
+    {
+      "search": "MNG",
+      "source_lines": [
+        691
+      ]
+    },
+    {
+      "search": "moov",
+      "source_lines": [
+        182
+      ]
+    },
+    {
+      "search": "mdat",
+      "source_lines": [
+        188
+      ]
+    },
+    {
+      "search": "jP",
+      "source_lines": [
+        194
+      ]
+    },
+    {
+      "search": "ID3",
+      "source_lines": [
+        1659
+      ]
+    },
+    {
+      "search": "-lzs-",
+      "source_lines": [
+        1176
+      ]
+    },
+    {
+      "search": "-lh5-",
+      "source_lines": [
+        1188,
+        7006
+      ]
+    },
+    {
+      "search": "PK\\003\\004",
+      "source_lines": [
+        1218,
+        1235,
+        1236,
+        1339,
+        9911,
+        9913
+      ]
+    },
+    {
+      "search": "WAVE",
+      "source_lines": [
+        8252,
+        8393,
+        9317
+      ]
+    },
+    {
+      "search": "AVI",
+      "source_lines": [
+        8273,
+        8401
+      ]
+    },
+    {
+      "search": "ftyp",
+      "source_lines": [
+        196
+      ]
+    },
+    {
+      "search": "isom",
+      "source_lines": [
+        197
+      ]
+    },
+    {
+      "search": "mp41",
+      "source_lines": [
+        200
+      ]
+    },
+    {
+      "search": "mp42",
+      "source_lines": [
+        202,
+        8330
+      ]
+    },
+    {
+      "search": "M4A",
+      "source_lines": [
+        217
+      ]
+    },
+    {
+      "search": "M4V",
+      "source_lines": [
+        219
+      ]
+    },
+    {
+      "search": "0xfdc4a7dc",
+      "source_lines": [
+        1295,
+        1302
+      ]
+    },
+    {
+      "search": "0xfffa",
+      "source_lines": []
+    },
+    {
+      "search": "BMP",
+      "source_lines": []
+    }
+  ],
+  "coverage": "Selected exact-byte and compound signatures only; no general upstream rule VM. MIME labels and advisory hints are independently selected library metadata.",
+  "database_redistribution": "The complete magic source/database is not bundled. Its upstream manual attributes it to an unspecified CentOS system; no claim is made that ISC alone establishes full-database provenance."
+}

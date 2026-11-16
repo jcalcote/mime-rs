@@ -1,0 +1,23 @@
+name: Bug report
+description: Report incorrect results, crashes or resource-limit failures
+title: ""
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and expected behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Crate version and Rust version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal public reproducer
+      description: Use synthetic bytes if possible. Do not attach private files or personal metadata.
+    validations:
+      required: true
