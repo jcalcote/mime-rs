@@ -12,7 +12,7 @@ documentation = "https://docs.rs/mime-inspect"
 readme = "README.md"
 keywords = ["mime", "magic", "file-type", "detection", "content"]
 categories = ["parser-implementations"]
-include = ["/src/**", "/tests/**", "/examples/**", "/resources/**", "/Cargo.toml", "/README.md", "/LICENSE", "/NOTICE", "/CHANGELOG.md"]
+include = ["/src/**", "/tests/**", "/examples/**", "/resources/**", "/Cargo.toml", "/README.md", "/LICENSE", "/NOTICE", "/CHANGELOG.md", "/CONTRIBUTING.md", "/SECURITY.md", "/RELEASING.md", "/CODE_OF_CONDUCT.md"]
 
 [lints.rust]
 unsafe_op_in_unsafe_fn = "deny"
